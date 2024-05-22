@@ -4,6 +4,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
+<<<<<<< HEAD
     left:0;
     right: 0;
 }
@@ -22,12 +23,57 @@ ul li{
 div ul{
     display:flex;
     align-items: center;
+=======
+    left: 0;
+    right: 0;
+}
+
+.is-mobile .dashboard-toolbar{
+    position: fixed;
+    z-index: 2;
+}
+
+h1.app-name {
+    margin-left: 8px;
+    margin-top: 15px;
+}
+
+.sidenav-container{
+    flex: 1;
+}
+
+.is-mobile .sidenav-container {
+    flex: 1 0 auto;
+}
+
+ul li {
+   list-style: none; 
+}
+
+.profile-card{
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+.header{
+    margin-top: 20px;
+}
+
+.icono{
+    margin-right: 10px;
+}
+
+div ul {
+   display: flex;
+   align-items: center; 
+>>>>>>> 7acd418a01973cacc6a3338fd0f9352405759122
 }
 
 .right{
     margin-left: auto;
 }
 
+<<<<<<< HEAD
 /*Aqui termina */
 
 .profile-card{
@@ -48,3 +94,8 @@ div ul{
 .icono{
     margin-right: 10px;
 }
+=======
+.name {
+    margin-bottom: 1px;
+}
+>>>>>>> 7acd418a01973cacc6a3338fd0f9352405759122

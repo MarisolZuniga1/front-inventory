@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="dashboard-container" [class.is-mobile]="mobileQuery.matches">
     <!--Empieza toolbar-->
     <mat-toolbar color="primary" class="dashboard-toolbar">
@@ -5,6 +6,16 @@
          <!--(click)="snav.toggle()"-->
         <h1 class="h1.app-name">S-Inventory</h1>
         
+=======
+
+<div class="dashboard-container" [class.is-mobile]="mobileQuery.matches">
+   
+      <!-- empieza toolbar-->
+      <mat-toolbar color="primary" class="dashboard-toolbar">
+        <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+        <h1 class="app-name">S-Inventory</h1>
+
+>>>>>>> 7acd418a01973cacc6a3338fd0f9352405759122
         <div class="right">
             <ul>
                 <li>
@@ -23,7 +34,14 @@
                 </li>
             </ul>
         </div>
+<<<<<<< HEAD
     </mat-toolbar>
+=======
+
+    </mat-toolbar>
+
+
+>>>>>>> 7acd418a01973cacc6a3338fd0f9352405759122
     <!--Empieza sidenav-->
     <mat-sidenav-container class="sidenav-container" [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
             <mat-sidenav #snav [mode]="mobileQuery? 'over':'side'" [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
